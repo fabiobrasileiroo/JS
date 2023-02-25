@@ -1,0 +1,18 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex3</title>
+<body>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`<h2>Seu nome tem ${nome.length} letras.</h2>`)
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} <br>`)
+        document.write(`Seu nome em minúscula é ${nome.toLowerCase()} <br>`)
+        var n1 = 1526.2
+        document.write(`${n1.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'})}`)//conversão para real
+    </script>
+</body>
+</html>
