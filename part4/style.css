@@ -9,13 +9,13 @@ header {
     text-align: center;
     color: white;
 }
-section > div {
+section {
     background-color: white;
     width: 50vw; 
-    height: 50vh;
     padding: 20px;
     margin: auto;
     border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.393)
 }
 section > div > input {
     margin-bottom: 15px
