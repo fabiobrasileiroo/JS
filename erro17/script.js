@@ -19,7 +19,10 @@ function inLista(n, l) {
 }
 function a() {
     if(isNumero(num.value) && !inLista(num.value, valores)) {
-        window.alert('tudo ok')
+        valores.push(Number(num.value))
+        let item = document.createElement('option')
+        item.text = `Valor ${num.value} adicionado.`
+        lista.appenChild(item)
     } else {
         window.alert('Valor inválido ou já encotrado na lista')
     }
