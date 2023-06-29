@@ -44,3 +44,8 @@ if(mes >= 1 && mes <= 12) {
 }
 }
 nomeDoMes(1)
+function receberNomesDoMes(numero){
+    const mapeamento = ['janeiro','feveiro']
+    return mapeamento[--numero]
+}
+receberNomesDoMes(1)
